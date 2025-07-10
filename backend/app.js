@@ -7,7 +7,7 @@ const cors = require("cors");
 
 app.use(cors())
 app.use(cors({
-    origin: "https://insta-1-ot71.onrender.com", // your frontend URL
+    origin: "https://insta-1-ot7l.onrender.com", // your frontend URL
     credentials: true
 }));
 
