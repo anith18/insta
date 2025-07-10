@@ -5,7 +5,12 @@ const mongoose = require("mongoose");
 const { mongoUrl } = require("./keys");
 const cors = require("cors");
 
-app.use(cors())
+// app.use(cors())
+app.use(cors({
+    origin: "https://insta-1-ot71.onrender.com", // your frontend URL
+    credentials: true
+}));
+
 require('./models/model')
 require('./models/post')
 app.use(express.json())

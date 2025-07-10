@@ -12,7 +12,7 @@ export default function UserProfie() {
 
   // to follow user
   const followUser = (userId) => {
-    fetch("https://instagram-mern-gz8g.onrender.com/follow", {
+    fetch("https://insta-8ox3.onrender.com/follow", {
       method: "put",
       headers: {
         "Content-Type": "application/json",
@@ -31,7 +31,7 @@ export default function UserProfie() {
 
   // to unfollow user
   const unfollowUser = (userId) => {
-    fetch("https://instagram-mern-gz8g.onrender.com/unfollow", {
+    fetch("https://insta-8ox3.onrender.com/unfollow", {
       method: "put",
       headers: {
         "Content-Type": "application/json",
@@ -51,7 +51,7 @@ export default function UserProfie() {
   };
 
   useEffect(() => {
-    fetch(`https://instagram-mern-gz8g.onrender.com/user/${userid}`, {
+    fetch(`https://insta-8ox3.onrender.com/user/${userid}`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },

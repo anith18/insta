@@ -24,7 +24,7 @@ export default function SignIn() {
       return
     }
     // Sending data to server
-    fetch("https://instagram-mern-gz8g.onrender.com/signin", {
+    fetch("https://insta-8ox3.onrender.com/signin", {
       method: "post",
       headers: {
         "Content-Type": "application/json"

@@ -23,7 +23,7 @@ export default function ProfilePic({ changeprofile }) {
 
   const postPic = () => {
     // saving post to mongodb
-    fetch("https://instagram-mern-gz8g.onrender.com/uploadProfilePic", {
+    fetch("https://insta-8ox3.onrender.com/uploadProfilePic", {
       method: "put",
       headers: {
         "Content-Type": "application/json",

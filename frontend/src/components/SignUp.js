@@ -32,7 +32,7 @@ export default function SignUp() {
 
     // Sending data to server
     // fetch("http://localhost:5000/signup", {
-    fetch("https://instagram-mern-gz8g.onrender.com/signup", {
+    fetch("https://insta-8ox3.onrender.com/signup", {
       method: "post",
       headers: {
         "Content-Type": "application/json"

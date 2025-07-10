@@ -31,7 +31,7 @@ export default function Profie() {
 
 
   useEffect(() => {
-    fetch(`https://instagram-mern-gz8g.onrender.com/user/${JSON.parse(localStorage.getItem("user"))._id}`, {
+    fetch(`https://insta-8ox3.onrender.com/user/${JSON.parse(localStorage.getItem("user"))._id}`, {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },

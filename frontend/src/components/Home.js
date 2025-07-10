@@ -23,7 +23,7 @@ export default function Home() {
     }
 
     // Fetching all posts
-    fetch("https://instagram-mern-gz8g.onrender.com/allposts", {
+    fetch("https://insta-8ox3.onrender.com/allposts", {
       headers: {
         Authorization: "Bearer " + localStorage.getItem("jwt"),
       },
@@ -47,7 +47,7 @@ export default function Home() {
   };
 
   const likePost = (id) => {
-    fetch("https://instagram-mern-gz8g.onrender.com/like", {
+    fetch("https://insta-8ox3.onrender.com/like", {
       method: "put",
       headers: {
         "Content-Type": "application/json",
@@ -71,7 +71,7 @@ export default function Home() {
       });
   };
   const unlikePost = (id) => {
-    fetch("https://instagram-mern-gz8g.onrender.com/unlike", {
+    fetch("https://insta-8ox3.onrender.com/unlike", {
       method: "put",
       headers: {
         "Content-Type": "application/json",
@@ -97,7 +97,7 @@ export default function Home() {
 
   // function to make comment
   const makeComment = (text, id) => {
-    fetch("https://instagram-mern-gz8g.onrender.com/comment", {
+    fetch("https://insta-8ox3.onrender.com/comment", {
       method: "put",
       headers: {
         "Content-Type": "application/json",

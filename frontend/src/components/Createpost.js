@@ -19,7 +19,7 @@ export default function Createpost() {
     // saving post to mongodb
     if (url) {
 
-      fetch("https://instagram-mern-gz8g.onrender.com/createPost", {
+      fetch("https://insta-8ox3.onrender.com/createPost", {
         method: "post",
         headers: {
           "Content-Type": "application/json",
