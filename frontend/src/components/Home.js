@@ -98,6 +98,7 @@ export default function Home() {
   // function to make comment
   const makeComment = (text, id) => {
     fetch("https://insta-8ox3.onrender.com/comment", {
+      
       method: "put",
       headers: {
         "Content-Type": "application/json",
